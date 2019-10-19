@@ -1,4 +1,4 @@
-# Lightfielder Suite - v1 2019-10-17 #
+# Lightfielder Suite - v1 2019-10-19 #
 
 ---
 
@@ -25,6 +25,8 @@ GNU AGPL v3
 The 130 camera view (13x10 layout) "`13x10_quilted_pikachu.0001.jpg`" X/Y planar grid camera array based footage was provided by Tobias Chen of [Volumetric Camera Systems](http://www.volumetriccamerasystems.com).
 
 The "silver mask" footage was provided by [Andrew Hazelden](mailto:andrew@andrewhazelden.com). The renders were created using a mix of [Fusion Studio](https://www.blackmagicdesign.com/products/fusion/) and [KartaVR](http://www.andrewhazelden.com/projects/kartavr/docs/).
+
+The "green lantern" footage was provided by [Andrew Hazelden](mailto:andrew@andrewhazelden.com). The renders were created using [Vray for Maya](https://www.chaosgroup.com/vray/maya).
 
 The "Z360" Over/Under color + depthmap sample 360VR footage was provided by [Andrew Hazelden](mailto:andrew@andrewhazelden.com).
 

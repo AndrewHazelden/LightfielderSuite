@@ -1,7 +1,7 @@
 ﻿#target photoshop
 
 /*
-Lightfielder - Rename and Number Layers - v0.3 2019-02-05
+Lightfielder - Rename and Number Layers - v1 2019-10-19
 By Andrew Hazelden
 Email: andrew@andrewhazelden.com
 Web: http://www.andrewhazelden.com

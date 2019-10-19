@@ -1,7 +1,7 @@
 ﻿#target photoshop
 
 /*
-Lightfielder - Set Metadata - v0.3 2019-02-06
+Lightfielder - Set Metadata - v1 2019-10-19
 By Andrew Hazelden
 Email: andrew@andrewhazelden.com
 Web: http://www.andrewhazelden.com

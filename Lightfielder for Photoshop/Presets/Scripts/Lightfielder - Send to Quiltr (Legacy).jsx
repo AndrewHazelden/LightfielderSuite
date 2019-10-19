@@ -1,7 +1,7 @@
 ﻿#target photoshop
 
 /*
-Lightfielder - Send to Quiltr - v0.3 2019-02-05
+Lightfielder - Send to Quiltr - v1 2019-10-19
 By Andrew Hazelden
 Email: andrew@andrewhazelden.com
 Web: http://www.andrewhazelden.com
