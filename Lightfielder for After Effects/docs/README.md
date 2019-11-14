@@ -42,7 +42,7 @@ Cineware rendered multi-view imagery can be formatted into a unified lightfield 
 
 ## Immersive 360VR Depthmap Rendering in AE ###
 
-The Cineware plugin that runs inside of a After Effects CC 2019 session is now able to render out RGB and depthmap passes too now which is quite cool. This allows for 6DOF Volumetric RGBD workflows to happen. And if you wanted to, you could even make a 5 view (hemi-cuve) or six view (full cubic) cubic 90° FOV camera rig and make a cubic panorama in your volumetric scenes.
+The Cineware plugin that runs inside of a After Effects CC 2019 session is now able to render out RGB and depthmap passes too now which is quite cool. This allows for 6DOF Volumetric RGBD workflows to happen. And if you wanted to, you could even make a 5 view (hemi-cube) or six view (full cubic) cubic 90° FOV camera rig and make a cubic panorama in your volumetric scenes.
 
 
 C4D Lite viewport showing a 5 camera (hemi-cube) rig for fisheye output:
