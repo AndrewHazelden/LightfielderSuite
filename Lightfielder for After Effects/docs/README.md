@@ -11,11 +11,14 @@ Web: [http://www.andrewhazelden.com](http://www.andrewhazelden.com)
 
 ### <a name="ae"></a>Adobe After Effects + C4D Lite ###
 
+
 [Adobe After Effects CC](https://www.adobe.com/products/aftereffects.html) ships with a built-in copy of [Cinema4D](https://www.maxon.net/en-us/) Lite and the [Cineware plugin](https://www.maxon.net/en-us/products/cineware-for-after-effects/). With the right insight and knowledge, this combo makes it possible to render out OBJ models as mesh sequences and lightfields inside of a stock copy of After Effects that every single Adobe Creative Cloud Subscriber has on their desktop computer.
 
-![C4D Lite Camera Rig](images/aftereffects-c4d-lite-camera-rig.png)
+![Quilted Views](images/aftereffects-quilted-view.png)
 
 You start by manually importing your sequence of OBJ models into C4D Lite. Then you edit each of the OBJ materials to build the scene you want with "unlit" surface material settings activated, if required. Using per-frame visibility toggling on the OBJ sequence imported meshes in C4D Lite you get a hackey but fully workable implementation of volumetric video sequence loading and playback in CC 2019. 
+
+![C4D Lite Camera Rig](images/aftereffects-c4d-lite-camera-rig.png)
 
 **If you have C4D scripting skills you can automating the process to make it less painful to setup. :)**
 

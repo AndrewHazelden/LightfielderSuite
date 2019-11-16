@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* Stylesheet for Markdown */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/SourceCodePro-Regular.ttf');
+}
+
+@import url("fonts/font-awesome.min.css");
+
+body {
+  font-family: "Source Sans Pro", Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #1C1C1C;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+  color: #AAAAAA;
+  /* color: #7D8686; */
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 2px solid #D0D0D0;
+  color: #D0D0D0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #D0D0D0;
+}
+
+h4 {
+  font-size: 16px;
+  color: #D0D0D0;
+}
+
+h5 {
+  font-size: 14px;
+  color: #D0D0D0;
+}
+
+h6 {
+  font-size: 14px;
+  color: #D0D0D0;
+}
+
+h7 {
+  font-size: 14px;
+  color: #D0D0D0;
+  /* color: #277BA5; */
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+  color: #C4C4C4;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: "Source Code Pro", monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #262626;
+  background-color: #363636;
+  color: #D0D0D0;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #363636;
+  border: 1px solid #262626;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Source Sans Pro", Helvetica, arial, sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  /* border: 1px solid #ccc; */ 
+  /* padding: 6px 13px; */ 
+}
+
+table tr {
+  /* border-top: 1px solid #ccc; */
+  /* background-color: #363636; */
+  /* color: #D0D0D0; */
+}
+
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 80%;
+  /* max-width: 100%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body><h1>Lightfielder Suite - v1.1 2019-11-16</h1>
+<hr />
+<h2><a name="support"></a>Support</h2>
+<p>Created By: Andrew Hazelden<br />
+E-Mail: <a href="mailto:andrew@andrewhazelden.com">andrew@andrewhazelden.com</a><br />
+Web: <a href="http://www.andrewhazelden.com">http://www.andrewhazelden.com</a></p>
+<h2><a name="overview"></a>Overview</h2>
+<p>Lightfielder Suite is an open-source set of post-production tools that help make volumetric production easier by providing a set of consistent tools that run inside of the leading DCC apps.</p>
+<p><img src="Lightfielder for Photoshop/images/photoshop_guides.png" alt="Photoshop Guides" /></p>
+<p>Look in the individual folders in this repo for each of the sets of Lightfielder tools and their supporting documentation.</p>
+<p>Lightfielder Suite is a volumetric dev project that was started by Andrew Hazelden, who was involved in the creation of <a href="https://github.com/zicher3d-org/domemaster-stereo-shader">Domemaster3D</a>, <a href="https://github.com/AndrewHazelden/Domemaster-Photoshop-Actions-Pack">Domemaster Photoshop Actions Pack</a>, <a href="http://www.cgchannel.com/2016/07/andrew-hazelden-releases-playblastvr-for-maya-v2-0/">PlayblastVR</a>, <a href="http://www.cgchannel.com/2015/07/andrew-hazelden-releases-rocketcomp-for-maya/">RocketComp</a>, <a href="http://www.andrewhazelden.com/projects/kartavr/docs/">KartaVR</a>, and <a href="https://gitlab.com/WeSuckLess/Reactor/">Reactor Package Manager</a>.</p>
+<h2><a name="license"></a>License</h2>
+<p>GNU AGPL v3</p>
+<h2><a name="media"></a>Sample Media</h2>
+<p>The 130 camera view (13x10 layout) &quot;<code>13x10_quilted_pikachu.0001.jpg</code>&quot; X/Y planar grid camera array based footage was provided by Tobias Chen of <a href="http://www.volumetriccamerasystems.com">Volumetric Camera Systems</a>.</p>
+<p>The &quot;silver mask&quot; footage was provided by <a href="mailto:andrew@andrewhazelden.com">Andrew Hazelden</a>. The renders were created using a mix of <a href="https://www.blackmagicdesign.com/products/fusion/">Fusion Studio</a> and <a href="http://www.andrewhazelden.com/projects/kartavr/docs/">KartaVR</a>.</p>
+<p>The &quot;green lantern&quot; footage was provided by <a href="mailto:andrew@andrewhazelden.com">Andrew Hazelden</a>. The renders were created using <a href="https://www.chaosgroup.com/vray/maya">Vray for Maya</a>.</p>
+<p>The &quot;Z360&quot; Over/Under color + depthmap sample 360VR footage was provided by <a href="mailto:andrew@andrewhazelden.com">Andrew Hazelden</a>.</p>
+</body>
+</html>

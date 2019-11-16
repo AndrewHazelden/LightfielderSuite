@@ -1,4 +1,4 @@
-# Lightfielder for Photoshop - 2019-10-19 #
+# Lightfielder for Photoshop - 2019-11-16 #
 
 ---
 
@@ -8,6 +8,19 @@ Created By: Andrew Hazelden
 E-Mail: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
 Web: [http://www.andrewhazelden.com](http://www.andrewhazelden.com)  
 
+## <a name="overview"></a>Overview ##
+
+Lightfielder Suite is an open-source set of post-production tools that help make volumetric production easier by providing a set of consistent tools that run inside of the leading DCC apps.
+
+The Photoshop version of Lightfielder makes it easier to work with quilted multi-view media by providing a set of Photoshop Actions that automate common tasks.
+
+Creating "Looking Glass Display" formatted quilts is fast and easy:
+
+![Photoshop Guides](images/photoshop_guides.png)
+
+And you can also use the `N Layers to Frame Animation Anaglyph 3D` actions to playback a stereoscopic 3D preview via anaglyph red/cyan glasses of your multi-view lightfields. The timeline scrubbing is done with the Photoshop "Timeline" palette's playback controls.
+
+![Frame Sequence](images/frame_animation_anaglyph_3D_sequence.png)
 
 ## Photoshop Install ##
 
